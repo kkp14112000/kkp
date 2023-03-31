@@ -1,4 +1,4 @@
-{"adStatus": "1",
+{"MRECAdNetwork":"fan","adStatus": "1",
  "adNetwork": "applovin_max",
- "backupAdNetwork": "fan",
- "MRECAdNetwork": "fan"}
+ "backupAdNetwork": "fan"
+ }
