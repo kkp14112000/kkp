@@ -1,10 +1,10 @@
 {"AdStatus":"1",
- "adNetwork":"fan",
+ "adNetwork":"fan_bidding_applovin_max",
  "backupAdNetwork":"applovin_discovery",
- "MRECAdNetwork":"fan",
+ "MRECAdNetwork":"fan_bidding_applovin_max",
  "BackupMRECAdNetwork":"applovin_discovery",
- "BannerAdNetwork":"fan",
+ "BannerAdNetwork":"fan_bidding_applovin_max",
  "backupBannerAdNetwork":"applovin_discovery",
- "InterstitialAdNetwork":"fan",
+ "InterstitialAdNetwork":"fan_bidding_applovin_max",
  "backupInterstitialAdNetwork":"applovin_discovery"
 }
