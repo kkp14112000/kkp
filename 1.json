@@ -1,10 +1,11 @@
-{"AdStatus":"1",
- "adNetwork":"fan_bidding_applovin_max",
- "backupAdNetwork":"applovin_discovery",
- "MRECAdNetwork":"fan_bidding_applovin_max",
- "BackupMRECAdNetwork":"applovin_discovery",
- "BannerAdNetwork":"fan_bidding_applovin_max",
- "backupBannerAdNetwork":"applovin_discovery",
- "InterstitialAdNetwork":"fan_bidding_applovin_max",
- "backupInterstitialAdNetwork":"applovin_discovery"
+{
+	"AdStatus": "1",
+	"adNetwork": "applovin_max",
+	"backupAdNetwork": "applovin_discovery",
+	"MRECAdNetwork": "applovin_max",
+	"BackupMRECAdNetwork": "applovin_discovery",
+	"BannerAdNetwork": "applovin_max",
+	"backupBannerAdNetwork": "applovin_discovery",
+	"InterstitialAdNetwork": "applovin_max",
+	"backupInterstitialAdNetwork": "applovin_discovery"
 }
