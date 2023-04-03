@@ -1,0 +1,10 @@
+{"AdStatus":"1",
+ "adNetwork":"admob",
+ "backupAdNetwork":"applovin_discovery",
+ "MRECAdNetwork":"admob",
+ "BackupMRECAdNetwork":"applovin_discovery",
+ "BannerAdNetwork":"admob",
+ "backupBannerAdNetwork":"applovin_discovery",
+ "InterstitialAdNetwork":"admob",
+ "backupInterstitialAdNetwork":"applovin_discovery"
+}
