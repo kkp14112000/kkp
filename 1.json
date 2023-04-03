@@ -1,11 +1,11 @@
 {
 	"AdStatus": "1",
-	"adNetwork": "applovin_max",
+	"adNetwork": "fan",
 	"backupAdNetwork": "applovin_discovery",
-	"MRECAdNetwork": "applovin_max",
+	"MRECAdNetwork": "fan",
 	"BackupMRECAdNetwork": "applovin_discovery",
-	"BannerAdNetwork": "applovin_max",
+	"BannerAdNetwork": "fan",
 	"backupBannerAdNetwork": "applovin_discovery",
-	"InterstitialAdNetwork": "applovin_max",
+	"InterstitialAdNetwork": "fan",
 	"backupInterstitialAdNetwork": "applovin_discovery"
 }
