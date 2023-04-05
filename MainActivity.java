@@ -1,4 +1,5 @@
-@Override
+
+    @Override
     protected void onCreate(final Bundle savedInstanceState) {
         if (DEBUG) {
             Log.d(TAG, "onCreate() called with: "
@@ -48,6 +49,8 @@
 
 
     private void setUpBottomNavigation() {
+
+        mBottomNavigation = findViewById(R.id.bottom_navigation);
         mBottomNavigation.setBehaviorTranslationEnabled(false);
         mBottomNavigation.setTranslucentNavigationEnabled(false);
 
@@ -57,7 +60,7 @@
         mBottomNavigation.setTitleState(AHBottomNavigation.TitleState.ALWAYS_SHOW);
 
         // Change colors
-
+        //mBottomNavigation = findViewById(R.id.bottom_navigation);
         if (mBottomNavigation != null) {
             mBottomNavigation.setAccentColor(R.color.light_bottom_navigation_accent_color);
         }
@@ -80,13 +83,13 @@
                     .findFragmentById(R.id.fragment_holder);
             switch (position) {
                 case 0:
-                    if (!(fragment instanceof FeedFragment)) {
+                    if (!(fragment instanceof MainFragment)) {
                         NavigationHelper.gotoMainFragment(getSupportFragmentManager());
                     }
                     return true;
 
                 case 1:
-                    if (!(fragment instanceof FeedFragment)) {
+                    if (!(fragment instanceof SubscriptionFragment)) {
                         NavigationHelper.openSubscriptionFragment(getSupportFragmentManager());
                     }
                     return true;
@@ -96,18 +99,6 @@
                         NavigationHelper.openFeedFragment(getSupportFragmentManager());
                     }
                     return true;
-
-//                case 3:
-//                    if (!(fragment instanceof FeedFragment)) {
-//                        NavigationHelper.openFeedFragment(getSupportFragmentManager());
-//                    }
-//                    return true;
-//
-//                case 4:
-//                    if (!(fragment instanceof FeedFragment)) {
-//                        NavigationHelper.openFeedFragment(getSupportFragmentManager());
-//                    }
-//                    return true;
 
             }
             return false;
